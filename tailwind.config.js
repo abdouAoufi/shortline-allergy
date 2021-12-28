@@ -1,7 +1,3 @@
-module.exports = {
-  content: [],
-  theme: {
-    extend: {},
-  },
-  plugins: [],
+tailwind.confid = {
+  
 }
