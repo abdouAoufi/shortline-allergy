@@ -6,13 +6,13 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Home</title>
-
+    <!-- <script src="https://cdn.tailwindcss.com"></script> -->
     <link rel="stylesheet" href="./styles/tailwind.css">
 </head>
 
 <body class="flex flex-col justify-center ">
 
-    <nav class="w-full md:px-2 md:px-8 lg:px-12 py-6">
+    <nav class="w-full md:px-2 px-8 lg:px-12 py-6">
         <div class="flex flex-wrap justify-between items-center">
             <img class="h-16" src="./static/images/logo.svg" alt="logo">
             <ul class="hidden md:flex  items-center gap-x-6">
@@ -46,49 +46,200 @@
         </div>
     </nav>
 
-    <!-- <footer class="mt-32 bg-black text-white px-8">
-        <div class="flex gap-x-4 px-32 py-16">
-            <div class="mr-4">
-                <img class="h-20" src="./static/images/logo-white.png" alt="logo">
-                <div class="mt-32 flex items-center gap-x-4">
-                    <img class="h-6 w-6" src="./static/icons/twitter.svg" alt="twitter">
-                    <img class="h-6 w-6" src="./static/icons/twitter.svg" alt="twitter">
-                    <img class="h-6 w-6" src="./static/icons/twitter.svg" alt="twitter">
+
+    <header>
+        <section class=" flex flex-wrap justify-between items-center  px-8 lg:px-16  py-6">
+            <div class="md:flex-1">
+                <h1 class="text-5xl font-semibold ">
+                    Allergy Treatment <br>
+                    & Care You Can Trust
+                </h1>
+                <p class="text-lg mt-6 w-5/6">
+                    At Shoreline, our intensely professional providers work hand-in-hand to provide the best quality of
+                    medical care in a friendly and relaxed environment.
+                </p>
+
+                <div class="mt-6 gap-x-6 flex">
+                    <button class="hidden md:block bg-black text-white px-4 py-3 rounded-xl">Book an
+                        Appoitement</button>
+                    <button class="hidden border-black md:block border text-black px-4 py-3 rounded-xl">Book an
+                        About us</button>
+
                 </div>
             </div>
-            <div class="w-1/4 mr-4">
-                <h3 class="font-bold text-lg">Disclaimer:</h3>
-                <p class=" mt-6 text-md">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente deserunt, ad,
-                    cum
-                    quia, aliquam
-                    maiores veritatis illum doloribus voluptates nisi modi eveniet fuga. Nemo illum dolorum veniam
-                    repellat quae dicta perspiciatis, ipsam aperiam qui unde fuga cupiditat.</p>
+            <div class="md:flex-1">
+                <img src="./static/images/header-home.png" alt="home header">
             </div>
-            <div class="shrink mr-4">
-                <h3 class="font-bold text-lg">Quick links:</h3>
-                <ul class="mt-6 flex flex-col items-start gap-y-2">
-                    <li><a href="#">Home</a></li>
-                    <li><a href="#">About us</a></li>
-                    <li><a href="#">Allergies</a></li>
-                    <li><a href="#">Ent</a></li>
-                    <li><a href="#">Branfort</a></li>
-                    <li><a href="#">Contact</a></li>
-                    <li><a href="#">Blog</a></li>
+        </section>
+    </header>
+
+
+    <section class="mt-12 relative lg:mx-32 px-8 md:px-6 lg:px-12 bg-primary item-center py-6 ">
+        <div>
+            <h1 class="text-5xl font-semibold ">
+                Got allergies? Trust only the experts.
+            </h1>
+            <p class="text-lg mt-6 w-5/6">
+                Non-stop sneezing, itchy and watery eyes, wheezing, rashing - sound familiar? These are the common signs
+                of an allergy attack, and about 50 million Americans experience this each year.
+                If you’re one of those people, your worries are over. We’re here
+            </p>
+            <div class="mt-20  gap-x-6 flex">
+                <button class="hidden md:block bg-black text-white px-4 py-3 rounded-xl">Book an
+                    ALLERGY SERVICES</button>
+                <button class="hidden border-black md:block border text-black px-4 py-3 rounded-xl">Book an
+                    WHAT IS SLIT?</button>
+
+            </div>
+            <img class="absolute -right-12 top-0 hidden md:block h-80 " src="./static/images/home-doctor.png"
+                alt="home header" />
+        </div>
+        <div class="flex mt-12 items-center justify-between w-full">
+            <img class="hidden md:block mr-12" src="./static/images/soons-doctor-home.png" alt="" srcset="">
+            <div>
+                <ul class="flex flex-col gap-y-6">
+                    <li>
+                        <div>
+                            <p>We treat patients for environmental and food allergies with both traditional
+                                allergy injections and via highly revolutionary sublingual immunotherapy (SLIT)</p>
+                        </div>
+                    </li>
+                    <li>
+                        <div>
+                            <p>We cater to sinus and nasal problems, caring for patients both medically and
+                                surgically, as well as caring for patients with salivary gland issues</p>
+                        </div>
+                    </li>
+                    <li>
+                        <div>
+                            <p>We also treat allergic asthma as well as all sinus problems including balloon in
+                                office sinus surgery and formal endoscopic sinus surgery.</p>
+                        </div>
+                    </li>
+                    <li>
+                        <button class="block mt-8 w-56  md:block bg-black text-white px-4 py-3 rounded-xl">Read
+                            more</button>
+                    </li>
                 </ul>
             </div>
-            <div class="grow">
-                <h3 class="font-bold text-lg">Sign Up For Our Newsletter</h3>
-                <input class="mt-6 px-4 py-2 rounded-lg" type="text">
+        </div>
+    </section>
+
+    <section
+        class="mt-12 relative lg:mx-32 px-8 md:px-6 lg:px-12 flex flex-col place-items-center item-center py-6 text-center">
+        <h1 class="text-5xl font-semibold ">
+            Don’t struggle with your allergies alone
+        </h1>
+        <p class="text-lg mt-6 text-center">receive expert medical care from our team of highly-certified allergists, at
+            your
+            convenience!
+            Visit us at Shoreline Allergy of Connecticut, and see why more and more patients choose
+            and trust Shoreline Allergy than any other service in the Bradford area!
+        </p>
+        <button class="block mt-8 w-56  md:block bg-black text-white px-4 py-3 rounded-xl">Book an
+            Appoitement</button>
+    </section>
+
+
+    <section class="mt-12 relative lg:mx-32 px-8 md:px-6 lg:px-12 py-6 flex flex-col justify-center ">
+        <h1 class="text-5xl font-semibold text-center">
+            Meet Your Physicians
+        </h1>
+
+        <div class="mt-16 ">
+            <div class="flex flex-wrap items-center gap-x-24 justify-start">
+                <div class="hidden md:block">
+                    <img class="block h-64 w-64 " src="./static/images/ms-doctor.png" alt="Agnes Czibulka, M.D., FAAOA">
+                </div>
+                <div class="flex-1 w-96 ">
+                    <h1 class="text-3xl font-semibold ">
+                        Agnes Czibulka, M.D., FAAOA
+                    </h1>
+                    <p class="text-lg mt-2 ">ENT Surgeon/Allergist </p>
+                    <p class="text-lg mt-6 w-1/2">Dr. Czibulka is a surgeon and allergist board-certified by the
+                        American Academy of Otolaryngology for Head and Neck Surgery. </p>
+                    <button class="block mt-8 w-56  md:block bg-black text-white px-4 py-3 rounded-xl">Read
+                        more</button>
+                </div>
+                <div class="block md:hidden mt-8 ">
+                    <img class="block h-64 w-64 " src="./static/images/ms-doctor.png" alt="Agnes Czibulka, M.D., FAAOA">
+                </div>
+            </div>
+            <div class="flex flex-wrap md:justify-end mt-8 items-center md:gap-x-24">
+                <div class="md:ml-24">
+                    <h1 class="inline text-3xl font-semibold ">
+                        Paul Alberti, M.D., FACS, FAAOA
+                    </h1>
+                    <p class="text-lg mt-2 ">ENT Surgeon / Allergist Medical Doctor
+                    </p>
+                    <p class="text-lg mt-6 w-96">Dr. Alberti is a well-renowned, board-certified otolaryngologist and
+                        surgeon, and is one of the founding members of ENT Medical and Surgical Group, LLC. </p>
+                    <button class="block mt-8 w-56  md:block bg-black text-white px-4 py-3 rounded-xl">Read
+                        more</button>
+                </div>
+                <div class="mt-8 md:mt-0">
+                    <img class="block h-64 w-64 " src="./static/images/mr-doctor.png" alt="Agnes Czibulka, M.D., FAAOA">
+                </div>
             </div>
         </div>
-    </footer> -->
+    </section>
 
-    <script  src="https://cdn.tailwindcss.com"></script>
-    <script>
-        tailwind.confid = {
 
-        }
-    </script>
+
+    <section class="mt-12  lg:mx-24 px-8 md:px-6 lg:px-12 py-6 flex items-start">
+
+        <div>
+            <h1 class="text-5xl font-semibold ">
+                Discover the Wonders of
+                Sublingual Immunotherapy (SLIT)
+            </h1>
+
+            <ul class="mt-8">
+                <li class="mt-4">
+                    <p class="text-lg ">
+                        A majority of patients that come to us for allergy problems have now
+                        begun to discover the wonders and benefits of Sublingual Immunotherapy,
+                        or SLIT for short.
+                    </p>
+                </li>
+                <li class="mt-4">
+                    <p class="text-lg ">
+                        SLIT is revolutionary for a number of reasons, as it has an excellent safety profile, high rate
+                        of
+                        efficacy, and is significantly more
+                        convenient to the average patient.
+                    </p>
+                </li>
+
+                <li class="mt-4">
+                    <p class="text-lg ">
+                        The sublingual drops are administered by the patients themselves at the comfort of their own
+                        home,
+                        eradicating the need for weekly office visits just to receive allergy injections.
+                    </p>
+                </li>
+                <li>
+                    <button class="block mt-8 w-56  md:block bg-black text-white px-4 py-3 rounded-xl">Read
+                        more</button>
+                </li>
+            </ul>
+        </div>
+
+        <div class="hidden md:block">
+            <img src="./static/images/family.png" alt="">
+        </div>
+
+    </section>
+
+
+    <section>
+        <div>
+            <img src="./static/images/map.png" alt="map">
+        </div>
+    </section>
+
+
+
 </body>
 
 </html>
