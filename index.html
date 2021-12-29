@@ -6,15 +6,14 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Home</title>
-    <!-- <script src="https://cdn.tailwindcss.com"></script> -->
-    <script src="./tailwind.config.js"></script>
+
     <link rel="stylesheet" href="./styles/tailwind.css">
 </head>
 
-<body class="flex justify-center px-4">
+<body class="flex flex-col justify-center ">
 
     <nav class="w-full md:px-2 md:px-8 lg:px-12 py-6">
-        <div class="flex justify-between items-center">
+        <div class="flex flex-wrap justify-between items-center">
             <img class="h-16" src="./static/images/logo.svg" alt="logo">
             <ul class="hidden md:flex  items-center gap-x-6">
                 <li><a href="#">Home</a></li>
@@ -47,6 +46,49 @@
         </div>
     </nav>
 
+    <!-- <footer class="mt-32 bg-black text-white px-8">
+        <div class="flex gap-x-4 px-32 py-16">
+            <div class="mr-4">
+                <img class="h-20" src="./static/images/logo-white.png" alt="logo">
+                <div class="mt-32 flex items-center gap-x-4">
+                    <img class="h-6 w-6" src="./static/icons/twitter.svg" alt="twitter">
+                    <img class="h-6 w-6" src="./static/icons/twitter.svg" alt="twitter">
+                    <img class="h-6 w-6" src="./static/icons/twitter.svg" alt="twitter">
+                </div>
+            </div>
+            <div class="w-1/4 mr-4">
+                <h3 class="font-bold text-lg">Disclaimer:</h3>
+                <p class=" mt-6 text-md">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente deserunt, ad,
+                    cum
+                    quia, aliquam
+                    maiores veritatis illum doloribus voluptates nisi modi eveniet fuga. Nemo illum dolorum veniam
+                    repellat quae dicta perspiciatis, ipsam aperiam qui unde fuga cupiditat.</p>
+            </div>
+            <div class="shrink mr-4">
+                <h3 class="font-bold text-lg">Quick links:</h3>
+                <ul class="mt-6 flex flex-col items-start gap-y-2">
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">About us</a></li>
+                    <li><a href="#">Allergies</a></li>
+                    <li><a href="#">Ent</a></li>
+                    <li><a href="#">Branfort</a></li>
+                    <li><a href="#">Contact</a></li>
+                    <li><a href="#">Blog</a></li>
+                </ul>
+            </div>
+            <div class="grow">
+                <h3 class="font-bold text-lg">Sign Up For Our Newsletter</h3>
+                <input class="mt-6 px-4 py-2 rounded-lg" type="text">
+            </div>
+        </div>
+    </footer> -->
+
+    <script  src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.confid = {
+
+        }
+    </script>
 </body>
 
 </html>
